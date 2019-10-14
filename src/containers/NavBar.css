@@ -45,3 +45,8 @@
   .navbar-header:first-child a:hover{
 	text-decoration: none;
  }
+
+ .show>.dropdown-menu {
+  display: block;
+  position: absolute;
+}

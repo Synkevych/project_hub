@@ -3,6 +3,8 @@ import { Switch, Route, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import Homepage from '../components/Homepage';
 import Projects from '../components/Projects';
+import News from '../components/News';
+import About from '../components/About';
 import AuthForm from '../components/AuthForm';
 import { authUser } from '../store/actions/auth';
 import { removeError } from '../store/actions/errors';
@@ -23,12 +25,23 @@ const Main = props => {
 				/>
 				<Route
 					exact
-					path='/projects'
+					path='/projects/system_Air'
 					render={props => {
-						return (
-							<Projects
-							/>
-						);
+						return <Projects />;
+					}}
+				/>
+				<Route
+					exact
+					path='/news'
+					render={props => {
+						return <News />;
+					}}
+				/>
+				<Route
+					exact
+					path='/about'
+					render={props => {
+						return <About />;
 					}}
 				/>
 				<Route
@@ -57,8 +70,8 @@ const Main = props => {
 								errors={errors}
 								onAuth={authUser}
 								signUp
-								buttonText='Sign me up'
-								heading='Join Wabler today.'
+								buttonText='Зареєструватися'
+								heading='Приєднайтеся до нас зараз'
 								{...props}
 							/>
 						);

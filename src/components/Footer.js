@@ -4,26 +4,16 @@ import "./Footer.css";
 const Footer = () => (
 	<footer>
 		<div>
-			Coded and built with{' '}
-			<span role='img' aria-label='heart'>
-				❤️
-			</span>{' '}
-			by{' '}
-			<a
-				href='https://www.linkedin.com/in/synkevych'
-				target='_blank'
-				rel='noopener noreferrer'
-			>
-				Synkevych{' '}
-			</a>
+			© Copyright 2019{' '}
 		</div>
 		Source code available on{' '}
 		<a
-			href='https://github.com/Synkevych/react_examples/tree/master/create-reat-app/country-flag-game'
+			href='https://github.com/Synkevych/project_hub'
 			target='_blank'
 			rel='noopener noreferrer'
-		>
+		><b>
 			GitHub
+		</b>
 		</a>
 	</footer>
 );

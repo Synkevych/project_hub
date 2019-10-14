@@ -5,12 +5,12 @@ import './Projects.css';
 const Projects = () => {
 	return (
 		<div className='card'>
-			<div id='colour-keeper' className='card-header'>
+			<h2 id='colour-keeper' className='card-header'>
 				Cистема «Повітря»{' '}
-			</div>
+			</h2>
 			<div className='card-body'>
 				<nav>
-					<ul className='nav navbar-nav'>
+					<ul className='nav btn-group mb-3'>
 						<li className='navbar-button'>
 							<a className='btn btn-outline-info' href='http://env.kiev.ua:88/'>
 								На сайт проекту
@@ -47,7 +47,7 @@ const Projects = () => {
 				</p>
 
 				<article className='list-group-item'>
-					<h5 className='card-title'>Автори</h5>
+					<h3 className='card-title'>Автори</h3>
 					<p className='card-text'>
 						Ковалець І.В., Майстренко С.Я., Загреба Т.О., Халченков О., Беспалов
 						В.П., Хурцилава К.В.
@@ -55,7 +55,7 @@ const Projects = () => {
 				</article>
 
 				<article className='list-group-item'>
-					<h5 className='card-title'>Функціональні можливості ПВ «Повітря»</h5>
+					<h3 className='card-title'>Функціональні можливості ПВ «Повітря»</h3>
 					<p className='card-text'>
 						Система «Повітря» моделює процес поширення хмари небезпечних
 						хімічних речовин на хімічно небезпечному об’єкті (ХНО) і прилеглій
@@ -73,7 +73,7 @@ const Projects = () => {
 				</article>
 
 				<article className='list-group-item'>
-					<h5 className='card-title'>Ціль проекту</h5>
+					<h3 className='card-title'>Ціль проекту</h3>
 					<p className='card-text'>
 						ПВ «Повітря» призначений для реалізації однієї з найбільш актуальних
 						задач сьогодення – задачі оперативного моделювання наслідків
