@@ -8,7 +8,7 @@ const Homepage = ({ currentUser }) => {
 		return (
 			<div className='home-hero'>
 				<h1>What's Happening</h1>
-				<h4>New to Warbler?</h4>
+				<h4>New to Ukrainian Hub Projects?</h4>
 				<Link to='/signup' className='btn btn-primary'>
 					Sign up here
 				</Link>
@@ -17,10 +17,12 @@ const Homepage = ({ currentUser }) => {
 	}
 	return (
 		<div>
-			<MessageTimeLine
+			{/* <MessageTimeLine
 				profileImageUrl={currentUser.user.profileImageUrl}
 				username={currentUser.user.username}
-			/>
+			/> */}
+			<h1> Hi there, we glad to see you here! </h1>
+			<h4> Here information about Ukrainian Hub Projects </h4>
 		</div>
 	);
 };

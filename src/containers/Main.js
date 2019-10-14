@@ -2,6 +2,7 @@ import React from 'react';
 import { Switch, Route, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import Homepage from '../components/Homepage';
+import Projects from '../components/Projects';
 import AuthForm from '../components/AuthForm';
 import { authUser } from '../store/actions/auth';
 import { removeError } from '../store/actions/errors';
@@ -19,6 +20,16 @@ const Main = props => {
 					render={props => (
 						<Homepage errors={errors} currentUser={currentUser} {...props} />
 					)}
+				/>
+				<Route
+					exact
+					path='/projects'
+					render={props => {
+						return (
+							<Projects
+							/>
+						);
+					}}
 				/>
 				<Route
 					exact

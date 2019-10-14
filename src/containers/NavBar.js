@@ -25,13 +25,13 @@ class NavBar extends Component {
 								<a href='/'>Головна</a>
 							</li>
 							<li>
-								<a href='/post/'>Проекти</a>
+								<a href='/projects/'>Проекти</a>
 							</li>
 							<li>
-								<a href='/project/'>Новини</a>
+								<a href='/news/'>Новини</a>
 							</li>
 							<li>
-								<a href='/'>Про нас</a>
+								<a href='/about'>Про нас</a>
 							</li>
 						</ul>
 					</div>

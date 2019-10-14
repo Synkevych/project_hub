@@ -1,0 +1,82 @@
+main {
+  margin: auto;
+  padding: 25px;
+  flex: 1 0 auto;
+  max-width: 750px;
+}
+
+.intro > h1 {
+  color: #212121;
+  font-size: 12vh;
+}
+
+.intro > h2 {
+  color: #757575;
+  font-size: 3vmin;
+}
+
+/*apply accent colour to links*/
+
+a:link, a:visited {
+  color: var(--accent);
+}
+
+a.icon:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent) !important;
+}
+
+/*paginator at bottom of list view*/
+
+.pages {
+  padding: 15px 0;
+}
+
+.pages-icon {
+  padding: 0 15px;
+}
+
+/*list item for posts and projects*/
+
+.item {
+  padding: 10px 0;
+}
+
+.item-tag {
+  background-color: var(--accent);
+}
+
+/*navigation bar icons*/
+
+.navbar-icon {
+  font-size: 125%;
+  display: inline-block !important;
+}
+.nav > li {
+  position: relative;
+  display: block;
+}
+.navbar-nav{
+    float: left;
+}
+navbar-nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+/*coloured borders at top and bottom of the page*/
+
+.navbar.navbar-default {
+  border-top: var(--border-width) solid var(--accent);
+}
+
+footer {
+  border-bottom: var(--border-width) solid var(--accent);
+}
+
+img {
+  max-width: 100%;
+}
