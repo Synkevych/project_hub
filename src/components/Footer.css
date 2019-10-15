@@ -1,6 +1,7 @@
 footer {
 	margin-top: 2vh;
+	padding: 1em;
 	text-align: center;
 	flex: 0 0 auto;
-	background-color: #e6ecf0;
+	background-color: rgba(0,0,0,.03);
 }

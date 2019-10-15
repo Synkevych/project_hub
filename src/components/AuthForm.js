@@ -63,7 +63,7 @@ class AuthForm extends React.Component {
 				<div className='row justify-content-md-center text-center'>
 					<div className='col-md-6'>
 						<form action='' onSubmit={this.handleSubmit}>
-							<h2>{heading}</h2>
+							<h2 className="card-title my-4">{heading}</h2>
 							{errors.message && (
 								<div className='alert alert-danger'>{errors.message}</div>
 							)}
