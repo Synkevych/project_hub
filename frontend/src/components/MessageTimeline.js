@@ -1,6 +1,6 @@
 import React from 'react';
 import MessageList from '../containers/MessageList';
-import UserAside from '../components/UserAside';
+import UserAside from './UserAside';
 
 const MessageTimeLine = props => {
 	return (

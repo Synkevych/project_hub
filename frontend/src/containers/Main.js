@@ -9,7 +9,7 @@ import AuthForm from '../components/AuthForm';
 import { authUser } from '../store/actions/auth';
 import { removeError } from '../store/actions/errors';
 import withAuth from '../hocs/withAuth';
-import ProjectForm from '../containers/ProjectForm';
+import ProjectForm from './ProjectForm';
 
 const Main = props => {
 	const { authUser, currentUser, errors, removeError } = props;
