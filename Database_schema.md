@@ -16,7 +16,7 @@
 - Description area
 
 ## Project informations:
-- Name 
+- Project_name 
 - Link to project 
 - Link to instruction 
 - Email
