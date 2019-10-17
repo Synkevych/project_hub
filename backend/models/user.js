@@ -45,6 +45,11 @@ const userSchema = new mongoose.Schema({
 		type: String,
 		require: true
 	},
+	role: {
+		type: String,
+		required: true,
+		default: "user"
+	},
 	messages: [
 		{
 			type: mongoose.Schema.Types.ObjectId,
