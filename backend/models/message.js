@@ -3,10 +3,37 @@ const User = require('./user');
 
 const messageSchema = new mongoose.Schema(
 	{
-		text: {
+		project_name: {
 			type: String,
-			required: true,
-			maxLength: 160
+			required: true
+		},
+		instruction: {
+			type: String,
+			required: true
+		},
+		email: {
+			type: String,
+			required: true
+		},
+		image: {
+			type: String,
+			required: true
+		},
+		authors: {
+			type: String,
+			required: true
+		},
+		functionality: {
+			type: String,
+			required: true
+		},
+		project_goal: {
+			type: String,
+			required: true
+		},
+		link: {
+			type: String,
+			required: true
 		},
 		user: {
 			type: mongoose.Schema.Types.ObjectId,
