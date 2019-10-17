@@ -63,7 +63,7 @@ class AuthForm extends React.Component {
 				<div className='row justify-content-md-center text-center'>
 					<div className='col-md-6'>
 						<form action='' onSubmit={this.handleSubmit}>
-							<h2 className="card-title my-4">{heading}</h2>
+							<h2 className='card-title my-4'>{heading}</h2>
 							{errors.message && (
 								<div className='alert alert-danger'>{errors.message}</div>
 							)}
@@ -99,7 +99,6 @@ class AuthForm extends React.Component {
 										value={username}
 										type='text'
 									/>
-
 									<label htmlFor='fullname'>Пізвище, Ім'я, По-батькові:</label>
 									<input
 										className='form-control'
@@ -125,7 +124,6 @@ class AuthForm extends React.Component {
 										className='form-control'
 										id='institution'
 										name='institution'
-										autoComplete='on'
 										onChange={this.handleChange}
 										value={institution}
 										type='text'
