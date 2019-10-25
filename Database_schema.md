@@ -1,4 +1,4 @@
-# Fields:
+# Sections:
 - projects
 - users
 - news
@@ -23,7 +23,8 @@
 - Image
 - Authors
 - Functionality
-- Project goal:
+- Project goal
+- role : "user" : "section-admin" : "admin"
 
 ## News
 - Name 
