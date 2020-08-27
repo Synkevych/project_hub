@@ -3,7 +3,7 @@
 ### Start server comand 
 `nodemon`
 or 
-`node inde.js`
+`node index.js`
 
 ### libraries 
 - bcrypt – help to hash passwords 
